@@ -1,6 +1,8 @@
 # ndi-python
 NewTek NDI Python wrapper
 
+The official version, and the one in pip, will not work with Python 3.11+ and CMake 3.3+.  My fork attempts to fix this, but needs to move the pybind into place as code under here and NOT a submodule.
+
 ## Installation
 ndi-python is support pypi package now. https://pypi.org/project/ndi-python/  
 So you can install it using pip if it is a supported environment.  
